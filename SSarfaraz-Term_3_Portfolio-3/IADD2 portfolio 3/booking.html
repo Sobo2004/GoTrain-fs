@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Set character set -->
+    <meta charset="UTF-8">
+    <!-- Responsive viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>Train Ticket Booking</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="booking.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Website brand/logo -->
+        <img src="logo.gif" width="50" height="50" style="margin-left: 50px;">
+        <a href="#" class="brand">Go</a>
+        <!-- Menu button -->
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i> <!-- Menu icon -->
+            <i class="fas fa-times"></i> <!-- Close icon -->
+        </div>
+        <!-- Navigation menu -->
+        <div class="navigation">
+            <!-- Navigation items -->
+            <div class="navigation-items">
+                <!-- Navigation links -->
+                <a href="indextrain.html">Home</a>
+                <a href="facilities.html">Facilities</a>
+                <a href="booking.html">My Bookings</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <form class = "form">
+            <p class="title">Book a Ticket</p>
+            <p class="message">Fill in the details to book your train ticket.</p>
+
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>From</span>
+            </label>
+
+            <label>
+                <input class="input" type="text" placeholder="" required="">
+                <span>To</span>
+            </label>
+
+            <label>
+                <input class="input" type="date" placeholder="" required="">
+                <span>Date of Journey</span>
+            </label>
+
+            <label>
+                <input class="input" type="number" placeholder="" required="">
+                <span>Number of Passengers</span>
+            </label>
+
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+
+ 
+
+</html>
